@@ -17,7 +17,10 @@
                             <a href="{{ route('clickNewUser') }}">EP2 - Click New User</a>
                         </li>
                         <li>
-                            <a href="{{ route('dataBinding') }}">EP2 - Data Binding</a>
+                            <a href="{{ route('dataBinding') }}">EP3 - Data Binding</a>
+                        </li>
+                        <li>
+                            <a href="{{ route('validation') }}">EP4 - Validation</a>
                         </li>
                     </ul>
                 </div>

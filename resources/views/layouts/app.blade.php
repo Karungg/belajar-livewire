@@ -46,6 +46,10 @@
             @if (Route::is('dataBinding'))
                 <livewire:data-binding />
             @endif
+
+            @if (Route::is('validation'))
+                <livewire:validation />
+            @endif
         </main>
     </div>
 </body>

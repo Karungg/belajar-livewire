@@ -13,6 +13,9 @@
                         <li>
                             <a href="{{ route('clicker') }}">EP1 - Clicker</a>
                         </li>
+                        <li>
+                            <a href="{{ route('clickNewUser') }}">EP2 - Click New User</a>
+                        </li>
                     </ul>
                 </div>
             </div>

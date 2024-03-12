@@ -14,6 +14,8 @@
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+    @livewireStyles
 </head>
 
 <body class="font-sans antialiased">
@@ -36,8 +38,14 @@
             @if (Route::is('clicker'))
                 <livewire:clicker />
             @endif
+
+            @if (Route::is('clickNewUser'))
+                <livewire:click-new-user>
+            @endif
         </main>
     </div>
 </body>
+
+@livewireScripts
 
 </html>

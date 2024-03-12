@@ -42,6 +42,10 @@
             @if (Route::is('clickNewUser'))
                 <livewire:click-new-user>
             @endif
+
+            @if (Route::is('dataBinding'))
+                <livewire:data-binding />
+            @endif
         </main>
     </div>
 </body>

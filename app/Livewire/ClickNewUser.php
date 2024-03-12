@@ -3,10 +3,13 @@
 namespace App\Livewire;
 
 use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 use Livewire\Component;
 
 class ClickNewUser extends Component
 {
+    public $username = "Miftah Fadilah";
+
     public function createNewUser()
     {
         User::create([

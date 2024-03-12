@@ -16,6 +16,7 @@ Route::view('profile', 'profile')
 Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () {
     Route::view('clicker', 'dashboard')->name('clicker');
     Route::view('clicker-new-user', 'dashboard')->name('clickNewUser');
+    Route::view('data-binding', 'dashboard')->name('dataBinding');
 });
 
 require __DIR__ . '/auth.php';

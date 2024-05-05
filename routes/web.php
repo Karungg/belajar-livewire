@@ -18,6 +18,7 @@ Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () 
     Route::view('clicker-new-user', 'dashboard')->name('clickNewUser');
     Route::view('data-binding', 'dashboard')->name('dataBinding');
     Route::view('validation', 'dashboard')->name('validation');
+    Route::view('multi-input', 'dashboard')->name('multiInput.index');
 });
 
 require __DIR__ . '/auth.php';

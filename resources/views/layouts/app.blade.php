@@ -50,6 +50,10 @@
             @if (Route::is('validation'))
                 <livewire:validation />
             @endif
+
+            @if (Route::is('multiInput.index'))
+                <livewire:multi-input />
+            @endif
         </main>
     </div>
 </body>

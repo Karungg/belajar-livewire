@@ -22,6 +22,9 @@
                         <li>
                             <a href="{{ route('validation') }}">EP4 - Validation</a>
                         </li>
+                        <li>
+                            <a href="{{ route('multiInput.index') }}">Multi Input</a>
+                        </li>
                     </ul>
                 </div>
             </div>

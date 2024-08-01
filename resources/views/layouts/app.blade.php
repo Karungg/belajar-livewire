@@ -54,10 +54,20 @@
             @if (Route::is('multiInput.index'))
                 <livewire:multi-input />
             @endif
+
+            @if (Route::is('powergrid'))
+                <livewire:categoryTable />
+            @endif
         </main>
     </div>
 </body>
-
+<!-- Scripts -->
 @livewireScripts
+<script>
+    window.addEventListener('showAlert', event => {
+        alert(event.detail.message);
+        console.log(event.detail.message);
+    })
+</script>
 
 </html>

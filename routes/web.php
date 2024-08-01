@@ -19,6 +19,7 @@ Route::middleware(['auth', 'verified'])->prefix('dashboard')->group(function () 
     Route::view('data-binding', 'dashboard')->name('dataBinding');
     Route::view('validation', 'dashboard')->name('validation');
     Route::view('multi-input', 'dashboard')->name('multiInput.index');
+    Route::view('powergrid', 'dashboard')->name('powergrid');
 });
 
 require __DIR__ . '/auth.php';

@@ -25,6 +25,9 @@
                         <li>
                             <a href="{{ route('multiInput.index') }}">Multi Input</a>
                         </li>
+                        <li>
+                            <a href="{{ route('powergrid') }}">Powergrid</a>
+                        </li>
                     </ul>
                 </div>
             </div>
